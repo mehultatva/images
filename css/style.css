@@ -1,0 +1,37 @@
+.star-ratings {
+  position: relative;
+}
+.star-ratings .fill-ratings {
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.star-ratings .fill-ratings span {
+  display: inline-block;
+}
+.star-ratings .empty-ratings {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+.big-star{
+    width:108px;
+}
+.small-star
+{
+    width: 73px;
+}
+.big-star .fill-ratings span img,
+.big-star .empty-ratings span img
+{
+    width: 108px;
+}
+.small-star .fill-ratings span img,
+.small-star .empty-ratings span img
+{
+    width: 73px;
+}
